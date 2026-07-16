@@ -1,0 +1,10 @@
+path: dataset/yolo_dataset_generated
+train: images/train
+val: images/val
+
+names:
+  0: black_reference
+  1: beige
+  2: blue
+  3: brown
+  4: red

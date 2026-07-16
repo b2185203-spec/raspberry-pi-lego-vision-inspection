@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+build/
+CMakeFiles/
+CMakeCache.txt
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+*.tmp
+*.log
+
+# 运行程序后生成的内容
+runs/
+dataset/yolo_dataset_generated/
+dataset/previews/
+dataset/reports/
+dataset/*_review_status.json
+dataset/*_source_status.json
