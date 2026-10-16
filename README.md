@@ -171,3 +171,5 @@ Raspberry Pi 4B（4核Cortex-A72，Debian 13.4，ORT 1.26.0，OpenCV 4.10.0）�
 推理平均延迟降低27.03%，完整流程平均延迟降低15.10%。15张图片的底板定位、类别、检测框和最终业务判断一致；原始FP32输出Tensor在记录的误差阈值内一致。正式程序编译成功，离线验收通过。
 
 详细环境、参数对照、CPU与温度代价、验证方法及原始CSV见[性能优化与离线验收记录](raspberry_pi/docs/performance_optimization.md)；复现入口见[离线Benchmark](raspberry_pi/benchmarks/acceptance/README.md)。
+
+本次修改、验收数据及GitHub提交见[最终报告](FINAL_REPORT.md)。
