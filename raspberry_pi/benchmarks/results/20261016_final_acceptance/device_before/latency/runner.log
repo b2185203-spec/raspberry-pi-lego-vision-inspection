@@ -1,0 +1,3 @@
+[0;93m2026-10-16 16:59:59.446582267 [W:onnxruntime:lego_yolo, device_discovery.cc:283 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card1": device_discovery.cc:93 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+[0;93m2026-10-16 16:59:59.446812946 [W:onnxruntime:lego_yolo, device_discovery.cc:283 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card0": device_discovery.cc:93 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+SUCCESS mode=latency images=15 warmup=20 measured=100 init_ms=152.375

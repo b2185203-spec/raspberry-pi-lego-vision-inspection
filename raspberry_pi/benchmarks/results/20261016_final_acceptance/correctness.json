@@ -1,0 +1,922 @@
+[
+  {
+    "left": "device_before/verify_direct",
+    "right": "device_before/verify_instrumented",
+    "status": "PASS",
+    "detections": {
+      "status": "PASS",
+      "errors": [],
+      "max_score_abs": 0,
+      "score_atol": 1e-05
+    },
+    "images": [
+      {
+        "image": "all_correct_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "all_correct_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "all_correct_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_beige_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_beige_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_beige_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_blue_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_blue_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_blue_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_brown_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_brown_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_brown_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_red_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_red_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_red_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      }
+    ]
+  },
+  {
+    "left": "device_after/verify_direct",
+    "right": "device_after/verify_instrumented",
+    "status": "PASS",
+    "detections": {
+      "status": "PASS",
+      "errors": [],
+      "max_score_abs": 0,
+      "score_atol": 1e-05
+    },
+    "images": [
+      {
+        "image": "all_correct_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "all_correct_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "all_correct_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_beige_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_beige_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_beige_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_blue_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_blue_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_blue_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_brown_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_brown_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_brown_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_red_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_red_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_red_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      }
+    ]
+  },
+  {
+    "left": "repository_before/verify_direct",
+    "right": "repository_before/verify_instrumented",
+    "status": "PASS",
+    "detections": {
+      "status": "PASS",
+      "errors": [],
+      "max_score_abs": 0,
+      "score_atol": 1e-05
+    },
+    "images": [
+      {
+        "image": "all_correct_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "all_correct_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "all_correct_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_beige_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_beige_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_beige_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_blue_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_blue_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_blue_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_brown_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_brown_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_brown_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_red_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_red_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_red_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      }
+    ]
+  },
+  {
+    "left": "repository_after/verify_direct",
+    "right": "repository_after/verify_instrumented",
+    "status": "PASS",
+    "detections": {
+      "status": "PASS",
+      "errors": [],
+      "max_score_abs": 0,
+      "score_atol": 1e-05
+    },
+    "images": [
+      {
+        "image": "all_correct_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "all_correct_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "all_correct_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_beige_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_beige_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_beige_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_blue_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_blue_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_blue_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_brown_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_brown_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_brown_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_red_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_red_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      },
+      {
+        "image": "missing_red_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true
+      }
+    ]
+  },
+  {
+    "left": "device_before/verify_instrumented",
+    "right": "device_after/verify_instrumented",
+    "status": "PASS",
+    "detections": {
+      "status": "PASS",
+      "errors": [],
+      "max_score_abs": 2.3900000001297883e-07,
+      "score_atol": 1e-05
+    },
+    "images": [
+      {
+        "image": "all_correct_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.00018310546875,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "all_correct_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.0001220703125,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "all_correct_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.00018310546875,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "missing_beige_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.000152587890625,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "missing_beige_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.000152587890625,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "missing_beige_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.000152587890625,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "missing_blue_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.00018310546875,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "missing_blue_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.000213623046875,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "missing_blue_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.000152587890625,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "missing_brown_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.000213623046875,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "missing_brown_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.000274658203125,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "missing_brown_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.00018310546875,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "missing_red_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.00030517578125,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "missing_red_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.00018310546875,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "missing_red_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.0002288818359375,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      }
+    ],
+    "board_corners_exact": true
+  },
+  {
+    "left": "repository_before/verify_instrumented",
+    "right": "repository_after/verify_instrumented",
+    "status": "PASS",
+    "detections": {
+      "status": "PASS",
+      "errors": [],
+      "max_score_abs": 2.3900000001297883e-07,
+      "score_atol": 1e-05
+    },
+    "images": [
+      {
+        "image": "all_correct_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.00018310546875,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "all_correct_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.0001220703125,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "all_correct_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.00018310546875,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "missing_beige_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.000152587890625,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "missing_beige_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.000152587890625,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "missing_beige_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.000152587890625,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "missing_blue_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.00018310546875,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "missing_blue_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.000213623046875,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "missing_blue_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.000152587890625,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "missing_brown_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.000213623046875,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "missing_brown_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.000274658203125,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "missing_brown_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.00018310546875,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "missing_red_001.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.00030517578125,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "missing_red_014.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.00018310546875,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      },
+      {
+        "image": "missing_red_020.jpg",
+        "rectified_exact": true,
+        "preview_exact": true,
+        "board_message_exact": true,
+        "yolo_message_exact": true,
+        "business_judgment_exact": true,
+        "mask_exact": true,
+        "tensor_max_abs": 0.0002288818359375,
+        "tensor_bitwise_exact": false,
+        "tensor_allclose": true
+      }
+    ],
+    "board_corners_exact": true
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "scope": "Offline original C++ production detection chain: image read, original board correction, original YOLO preprocessing/Run/NMS, PositionRules; live Web/camera/GPIO excluded from these latency numbers",
+  "images": 15,
+  "warmup": 20,
+  "measured": 100,
+  "summary": {
+    "device_before": {
+      "ort_mean_ms": 608.09252151,
+      "ort_p95_ms": 612.1457045,
+      "total_mean_ms": 1080.75712552,
+      "total_p95_ms": 1089.00253585,
+      "process_cpu_mean_percent": 160.17398031611108,
+      "rss_mean_mib": 154.62301940917968,
+      "pss_mean_mib": 146.18608551025392,
+      "peak_rss_mib": 163.859375,
+      "temperature_max_c": 68.653,
+      "throttling": [
+        "0x0"
+      ]
+    },
+    "device_after": {
+      "ort_mean_ms": 443.75217234999997,
+      "ort_p95_ms": 446.40875925,
+      "total_mean_ms": 917.5162845,
+      "total_p95_ms": 924.9222108499999,
+      "process_cpu_mean_percent": 247.61865111657963,
+      "rss_mean_mib": 153.29915065940367,
+      "pss_mean_mib": 144.8757821459289,
+      "peak_rss_mib": 163.765625,
+      "temperature_max_c": 74.497,
+      "throttling": [
+        "0x0"
+      ]
+    }
+  },
+  "improvement_percent": {
+    "ort_mean_ms": 27.02555011726081,
+    "ort_p95_ms": 27.07475426710275,
+    "total_mean_ms": 15.104303933361319,
+    "total_p95_ms": 15.067028734871613
+  },
+  "acceptance_gate": "All output checks pass; Run mean and P95 improve >=5%; full offline pipeline mean improves >=2%",
+  "correctness_comparisons": 6,
+  "business_comparisons": [
+    {
+      "variant": "device_before",
+      "mode": "latency",
+      "compared_runs": 120,
+      "mismatches": [],
+      "status": "PASS"
+    },
+    {
+      "variant": "device_before",
+      "mode": "monitor",
+      "compared_runs": 120,
+      "mismatches": [],
+      "status": "PASS"
+    },
+    {
+      "variant": "device_after",
+      "mode": "latency",
+      "compared_runs": 120,
+      "mismatches": [],
+      "status": "PASS"
+    },
+    {
+      "variant": "device_after",
+      "mode": "monitor",
+      "compared_runs": 120,
+      "mismatches": [],
+      "status": "PASS"
+    }
+  ],
+  "model_sha256": "fd2208bbe7d7c5bb9a76a2f0b7e363f81ee19af0aed3810817ab6b2d40047082",
+  "publication_allowed": true
+}

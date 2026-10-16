@@ -1,0 +1,17 @@
+{
+  "exit_code": 0,
+  "target_pid": 6195,
+  "interval_requested_ms": 100,
+  "sample_count": 1090,
+  "process_wall_ms": 123854.889491,
+  "kernel_lifetime_peak_rss_kib": 167696,
+  "sampled_max_VmHWM_kib": 168144,
+  "sampled_max_pss_kib": 159466,
+  "pss_available": true,
+  "peak_method": "Linux wait4 rusage.ru_maxrss; KiB",
+  "scope": "Whole monitored process; init, preflight, warmup, 100 measured calls, output serialization and cleanup",
+  "cpu_method": "/proc/stat deltas; process /proc/PID/stat utime+stime / elapsed / CLK_TCK; process percent may exceed 100; machine-normalized value also provided",
+  "sampling_method": "/proc/PID/status and smaps_rollup; /proc/meminfo; sysfs temperature/frequency; vcgencmd get_throttled about once per second",
+  "sampling_overhead": "Observer and target checkpoints run only in monitor mode; not equivalent to plain latency",
+  "errors": []
+}

@@ -28,7 +28,7 @@ public:
             GraphOptimizationLevel::ORT_ENABLE_EXTENDED
         );
 
-        session_options_.SetIntraOpNumThreads(2);
+        // Use ORT's default automatic intra-op thread count.
 
         session_ = std::make_unique<Ort::Session>(
             environment_,

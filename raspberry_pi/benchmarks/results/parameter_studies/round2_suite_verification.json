@@ -1,0 +1,451 @@
+{
+  "status": "PASS",
+  "images": [
+    {
+      "file": "all_correct_001.jpg",
+      "sha256": "f14f15732ddd04ed846bbb01a812c52a92ed7a4ec5d11abf610aade1f50e1871"
+    },
+    {
+      "file": "all_correct_014.jpg",
+      "sha256": "2e45944206a30647a9201c34e89547afc784f52f1e55be9d824dfbd1012bcf3a"
+    },
+    {
+      "file": "all_correct_020.jpg",
+      "sha256": "0b70e732373353e0f56aae1ca429bfad59450a8af2ccbfaf0860012ce6eb5b19"
+    },
+    {
+      "file": "missing_beige_001.jpg",
+      "sha256": "559058971e398672dc86ea56f10069bc58960c03a36c1cdbb2a92177197a18aa"
+    },
+    {
+      "file": "missing_beige_014.jpg",
+      "sha256": "10257d2148b1bf8265aa34fc357de50f5eec1a34983f4991465564e4ef4d3ff2"
+    },
+    {
+      "file": "missing_beige_020.jpg",
+      "sha256": "f4a15803ae69024b284fddeba80c3eb908ec6fe131b0ac6120238437dd9d2440"
+    },
+    {
+      "file": "missing_blue_001.jpg",
+      "sha256": "ec4a454692faa7cec2ee2d94b001f69462dfd3f31f72b88864b08fb513b1e974"
+    },
+    {
+      "file": "missing_blue_014.jpg",
+      "sha256": "cdd5745f8abec85de67113874345da8085c40928362740831da98c241afd06c0"
+    },
+    {
+      "file": "missing_blue_020.jpg",
+      "sha256": "3e96e57f80a2dd81c3d479245a7baf1ec290f2c7d5d9dfcc7d265f85a0a53f72"
+    },
+    {
+      "file": "missing_brown_001.jpg",
+      "sha256": "e98e39a16f80f0751d75d4734e7939579e86b7220295f57172c807a5b386c6ca"
+    },
+    {
+      "file": "missing_brown_014.jpg",
+      "sha256": "fc4c71014dd6ca2bcd1736cf54f6c1abf136a2641ac18605a727c3a750944432"
+    },
+    {
+      "file": "missing_brown_020.jpg",
+      "sha256": "cd6cb4edbda855daa465d31950ee820be3f3222265dfdfc068c29ed71c661415"
+    },
+    {
+      "file": "missing_red_001.jpg",
+      "sha256": "25d3f35b4d67c9324932e788ed1abcb7f82e0951f966a4df6f4fa8d9b5cb1859"
+    },
+    {
+      "file": "missing_red_014.jpg",
+      "sha256": "922e85ebbe106f8bc8ae486b52dcfe5b5c521d1c457c6767162c472785dfd711"
+    },
+    {
+      "file": "missing_red_020.jpg",
+      "sha256": "39686ae3454e8782582863ca7a92761185d291ffaf80de6e8224eaf84253ce35"
+    }
+  ],
+  "cases": [
+    {
+      "case": "D0_SPIN1",
+      "modes": {
+        "latency": {
+          "warmup": 20,
+          "measured": 100
+        },
+        "monitor": {
+          "warmup": 20,
+          "measured": 100
+        },
+        "profile": {
+          "warmup": 20,
+          "measured": 100
+        }
+      },
+      "nodes": 176,
+      "events": 21120,
+      "session_created_threads": [
+        {
+          "monotonic_ns": "16885260608885",
+          "phase": "after_session",
+          "pid": "3860",
+          "tid": "3871",
+          "role": "created_during_ort_session",
+          "cpus_allowed": "2",
+          "thread_name": "controls_benchm"
+        },
+        {
+          "monotonic_ns": "16885260608885",
+          "phase": "after_session",
+          "pid": "3860",
+          "tid": "3872",
+          "role": "created_during_ort_session",
+          "cpus_allowed": "1",
+          "thread_name": "controls_benchm"
+        },
+        {
+          "monotonic_ns": "16885260608885",
+          "phase": "after_session",
+          "pid": "3860",
+          "tid": "3873",
+          "role": "created_during_ort_session",
+          "cpus_allowed": "0",
+          "thread_name": "controls_benchm"
+        }
+      ],
+      "correctness": "PASS",
+      "thread_affinity_verified": true
+    },
+    {
+      "case": "D4_FREE_SPIN1",
+      "modes": {
+        "latency": {
+          "warmup": 20,
+          "measured": 100
+        },
+        "monitor": {
+          "warmup": 20,
+          "measured": 100
+        },
+        "profile": {
+          "warmup": 20,
+          "measured": 100
+        }
+      },
+      "nodes": 176,
+      "events": 21120,
+      "session_created_threads": [
+        {
+          "monotonic_ns": "17494554760372",
+          "phase": "after_session",
+          "pid": "4055",
+          "tid": "4066",
+          "role": "created_during_ort_session",
+          "cpus_allowed": "0;1;2;3",
+          "thread_name": "controls_benchm"
+        },
+        {
+          "monotonic_ns": "17494554760372",
+          "phase": "after_session",
+          "pid": "4055",
+          "tid": "4067",
+          "role": "created_during_ort_session",
+          "cpus_allowed": "0;1;2;3",
+          "thread_name": "controls_benchm"
+        },
+        {
+          "monotonic_ns": "17494554760372",
+          "phase": "after_session",
+          "pid": "4055",
+          "tid": "4068",
+          "role": "created_during_ort_session",
+          "cpus_allowed": "0;1;2;3",
+          "thread_name": "controls_benchm"
+        }
+      ],
+      "correctness": "PASS",
+      "thread_affinity_verified": true
+    },
+    {
+      "case": "D4_AFF_SPIN1",
+      "modes": {
+        "latency": {
+          "warmup": 20,
+          "measured": 100
+        },
+        "monitor": {
+          "warmup": 20,
+          "measured": 100
+        },
+        "profile": {
+          "warmup": 20,
+          "measured": 100
+        }
+      },
+      "nodes": 176,
+      "events": 21120,
+      "session_created_threads": [
+        {
+          "monotonic_ns": "18130130111978",
+          "phase": "after_session",
+          "pid": "4254",
+          "tid": "4269",
+          "role": "created_during_ort_session",
+          "cpus_allowed": "1",
+          "thread_name": "controls_benchm"
+        },
+        {
+          "monotonic_ns": "18130130111978",
+          "phase": "after_session",
+          "pid": "4254",
+          "tid": "4270",
+          "role": "created_during_ort_session",
+          "cpus_allowed": "2",
+          "thread_name": "controls_benchm"
+        },
+        {
+          "monotonic_ns": "18130130111978",
+          "phase": "after_session",
+          "pid": "4254",
+          "tid": "4271",
+          "role": "created_during_ort_session",
+          "cpus_allowed": "3",
+          "thread_name": "controls_benchm"
+        }
+      ],
+      "correctness": "PASS",
+      "thread_affinity_verified": true
+    },
+    {
+      "case": "D0_SPIN0",
+      "modes": {
+        "latency": {
+          "warmup": 20,
+          "measured": 100
+        },
+        "monitor": {
+          "warmup": 20,
+          "measured": 100
+        },
+        "profile": {
+          "warmup": 20,
+          "measured": 100
+        }
+      },
+      "nodes": 176,
+      "events": 21120,
+      "session_created_threads": [
+        {
+          "monotonic_ns": "18775557009722",
+          "phase": "after_session",
+          "pid": "4456",
+          "tid": "4473",
+          "role": "created_during_ort_session",
+          "cpus_allowed": "2",
+          "thread_name": "controls_benchm"
+        },
+        {
+          "monotonic_ns": "18775557009722",
+          "phase": "after_session",
+          "pid": "4456",
+          "tid": "4474",
+          "role": "created_during_ort_session",
+          "cpus_allowed": "1",
+          "thread_name": "controls_benchm"
+        },
+        {
+          "monotonic_ns": "18775557009722",
+          "phase": "after_session",
+          "pid": "4456",
+          "tid": "4475",
+          "role": "created_during_ort_session",
+          "cpus_allowed": "0",
+          "thread_name": "controls_benchm"
+        }
+      ],
+      "correctness": "PASS",
+      "thread_affinity_verified": true
+    },
+    {
+      "case": "D0_PAR2_SPIN1",
+      "modes": {
+        "latency": {
+          "warmup": 20,
+          "measured": 100
+        },
+        "monitor": {
+          "warmup": 20,
+          "measured": 100
+        },
+        "profile": {
+          "warmup": 20,
+          "measured": 100
+        }
+      },
+      "nodes": 176,
+      "events": 21120,
+      "session_created_threads": [
+        {
+          "monotonic_ns": "19469998800150",
+          "phase": "after_session",
+          "pid": "4667",
+          "tid": "4678",
+          "role": "created_during_ort_session",
+          "cpus_allowed": "0;1;2;3",
+          "thread_name": "controls_benchm"
+        },
+        {
+          "monotonic_ns": "19469998800150",
+          "phase": "after_session",
+          "pid": "4667",
+          "tid": "4679",
+          "role": "created_during_ort_session",
+          "cpus_allowed": "0;1;2;3",
+          "thread_name": "controls_benchm"
+        },
+        {
+          "monotonic_ns": "19469998800150",
+          "phase": "after_session",
+          "pid": "4667",
+          "tid": "4680",
+          "role": "created_during_ort_session",
+          "cpus_allowed": "0;1;2;3",
+          "thread_name": "controls_benchm"
+        },
+        {
+          "monotonic_ns": "19469998800150",
+          "phase": "after_session",
+          "pid": "4667",
+          "tid": "4681",
+          "role": "created_during_ort_session",
+          "cpus_allowed": "0;1;2;3",
+          "thread_name": "controls_benchm"
+        }
+      ],
+      "correctness": "PASS",
+      "thread_affinity_verified": true
+    },
+    {
+      "case": "D4_AFF_MATCH_SPIN1",
+      "modes": {
+        "latency": {
+          "warmup": 20,
+          "measured": 100
+        },
+        "monitor": {
+          "warmup": 20,
+          "measured": 100
+        },
+        "profile": {
+          "warmup": 20,
+          "measured": 100
+        }
+      },
+      "nodes": 176,
+      "events": 21120,
+      "session_created_threads": [
+        {
+          "monotonic_ns": "20502540321080",
+          "phase": "after_session",
+          "pid": "4950",
+          "tid": "4961",
+          "role": "created_during_ort_session",
+          "cpus_allowed": "0",
+          "thread_name": "controls_benchm"
+        },
+        {
+          "monotonic_ns": "20502540321080",
+          "phase": "after_session",
+          "pid": "4950",
+          "tid": "4962",
+          "role": "created_during_ort_session",
+          "cpus_allowed": "1",
+          "thread_name": "controls_benchm"
+        },
+        {
+          "monotonic_ns": "20502540321080",
+          "phase": "after_session",
+          "pid": "4950",
+          "tid": "4963",
+          "role": "created_during_ort_session",
+          "cpus_allowed": "2",
+          "thread_name": "controls_benchm"
+        }
+      ],
+      "correctness": "PASS",
+      "thread_affinity_verified": true
+    }
+  ],
+  "confirmations": [
+    {
+      "case": "D0_SPIN1",
+      "series": "confirmation",
+      "ort_mean_ms": 443.39698410999995,
+      "ort_p95_ms": 445.54930005,
+      "total_mean_ms": 915.95917824,
+      "consistency": {
+        "count_mismatch_runs": 0,
+        "class_mismatches": 0,
+        "box_mismatches": 0,
+        "max_box_difference_px": 0,
+        "max_score_abs_difference": 0.0,
+        "score_atol": 1e-05,
+        "matched_detections": 504,
+        "pass_check": true
+      }
+    }
+  ],
+  "paired_confirmation": [
+    {
+      "label": "POST_D0",
+      "case": "D0_SPIN1",
+      "ort_mean_ms": 442.38513176,
+      "ort_p95_ms": 445.9782746,
+      "total_mean_ms": 917.7911718800001,
+      "consistency": {
+        "count_mismatch_runs": 0,
+        "class_mismatches": 0,
+        "box_mismatches": 0,
+        "max_box_difference_px": 0,
+        "max_score_abs_difference": 0.0,
+        "score_atol": 1e-05,
+        "matched_detections": 504,
+        "pass_check": true
+      }
+    },
+    {
+      "label": "PRE_D0",
+      "case": "D0_SPIN1",
+      "ort_mean_ms": 446.55263601999997,
+      "ort_p95_ms": 449.7265766,
+      "total_mean_ms": 920.59353462,
+      "consistency": {
+        "count_mismatch_runs": 0,
+        "class_mismatches": 0,
+        "box_mismatches": 0,
+        "max_box_difference_px": 0,
+        "max_score_abs_difference": 0.0,
+        "score_atol": 1e-05,
+        "matched_detections": 504,
+        "pass_check": true
+      }
+    },
+    {
+      "label": "SPIN0",
+      "case": "D0_SPIN0",
+      "ort_mean_ms": 451.67573351,
+      "ort_p95_ms": 453.81220579999996,
+      "total_mean_ms": 923.89980682,
+      "consistency": {
+        "count_mismatch_runs": 0,
+        "class_mismatches": 0,
+        "box_mismatches": 0,
+        "max_box_difference_px": 0,
+        "max_score_abs_difference": 0.0,
+        "score_atol": 1e-05,
+        "matched_detections": 504,
+        "pass_check": true
+      }
+    }
+  ],
+  "original_model_and_production_hashes_unchanged": true,
+  "active_throttling_snapshots": [],
+  "timestamp_utc": "2026-10-16T08:16:20.328809+00:00"
+}

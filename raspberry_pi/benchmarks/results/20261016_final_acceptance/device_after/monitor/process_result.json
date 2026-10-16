@@ -1,0 +1,18 @@
+{
+  "returncode": 0,
+  "started_at": "2026-10-16T09:12:11.910004+00:00",
+  "finished_at": "2026-10-16T09:14:15.955568+00:00",
+  "before": {
+    "timestamp_utc": "2026-10-16T09:12:11.904078+00:00",
+    "temperature_c": 59.887,
+    "frequency_khz": "600000",
+    "throttling": "throttled=0x0",
+    "cooldown_seconds": 90.09186099100043
+  },
+  "after": {
+    "timestamp_utc": "2026-10-16T09:14:15.955612+00:00",
+    "temperature_c": 71.575,
+    "frequency_khz": "1800000",
+    "throttling": "throttled=0x0"
+  }
+}

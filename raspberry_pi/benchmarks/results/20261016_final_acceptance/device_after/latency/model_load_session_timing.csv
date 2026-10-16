@@ -1,0 +1,2 @@
+stage,duration_ms,note
+model_load_and_session_creation,161.065436,ORT Session constructor loads model; model loading and Session creation not independently separable

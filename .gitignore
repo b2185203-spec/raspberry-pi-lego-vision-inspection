@@ -17,3 +17,14 @@ dataset/previews/
 dataset/reports/
 dataset/*_review_status.json
 dataset/*_source_status.json
+
+# Local performance builds and private experiment artifacts
+build-*/
+acceptance-output*/
+benchmarks/experiments/
+*.zip
+*.7z
+
+# Reviewed acceptance logs kept with the published measurement records
+!raspberry_pi/benchmarks/results/**/runner.log
+!raspberry_pi/benchmarks/results/**/production_compile.log

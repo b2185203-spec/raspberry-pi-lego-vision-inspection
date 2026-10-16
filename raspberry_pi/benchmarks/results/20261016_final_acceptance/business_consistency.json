@@ -1,0 +1,30 @@
+[
+  {
+    "variant": "device_before",
+    "mode": "latency",
+    "compared_runs": 120,
+    "mismatches": [],
+    "status": "PASS"
+  },
+  {
+    "variant": "device_before",
+    "mode": "monitor",
+    "compared_runs": 120,
+    "mismatches": [],
+    "status": "PASS"
+  },
+  {
+    "variant": "device_after",
+    "mode": "latency",
+    "compared_runs": 120,
+    "mismatches": [],
+    "status": "PASS"
+  },
+  {
+    "variant": "device_after",
+    "mode": "monitor",
+    "compared_runs": 120,
+    "mismatches": [],
+    "status": "PASS"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "main.cpp": "181dc2dc5e1eba9929d478cd9c3cfaf4d9bf6fdd308e70735f31631ef419da4b",
+  "camera.hpp": "b9979d3a1e23a0029be4c860d6561461f967515de85af3d595dd262e4195c3be",
+  "gpio.hpp": "8062fabffa06ba78abfc95f98107b397f32eb4eed3d2fc5b5992bd7e594875d9",
+  "image_preprocessor.hpp": "030a76e445fb5d26af9140e65877c76a77702a8e3db564237124e7d22f5d5042",
+  "position_rules.hpp": "2d99f15ac6042747de20224148b7a7ef8ca4b7afa47b64c78a4bdd0d8e62d973",
+  "ultrasonic.hpp": "40f904a9de21d0766dd0c0880d88ced50c14268dbea7649def9b54a9d767c5dc",
+  "web_server.hpp": "fe82a5217982f20422620916ee025daed48de3501deda33be7b45e9c9515d216",
+  "yolo_detector.hpp": "acacf243943a32e241b929631ef1ebaa08f856e171dfc983563e0731884c865b",
+  "CMakeLists.txt": "d4999efc02089b2a92a1031c41d3b0a4f14eadd5e782cf48bc80ecb8fbd2a4bb",
+  "lego_yolov8n_manual.onnx": "fd2208bbe7d7c5bb9a76a2f0b7e363f81ee19af0aed3810817ab6b2d40047082"
+}

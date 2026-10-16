@@ -1,0 +1,2 @@
+# Preserve the original bytes and formatting of measured data and generated logs.
+raspberry_pi/benchmarks/results/** -text whitespace=-blank-at-eol,-blank-at-eof

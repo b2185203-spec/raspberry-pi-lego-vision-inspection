@@ -1,0 +1,16 @@
+image,width,height,board_ok,rectified_width,rectified_height
+all_correct_001.jpg,1280,720,1,800,800
+all_correct_014.jpg,1280,720,1,800,800
+all_correct_020.jpg,1280,720,1,800,800
+missing_beige_001.jpg,1280,720,1,800,800
+missing_beige_014.jpg,1280,720,1,800,800
+missing_beige_020.jpg,1280,720,1,800,800
+missing_blue_001.jpg,1280,720,1,800,800
+missing_blue_014.jpg,1280,720,1,800,800
+missing_blue_020.jpg,1280,720,1,800,800
+missing_brown_001.jpg,1280,720,1,800,800
+missing_brown_014.jpg,1280,720,1,800,800
+missing_brown_020.jpg,1280,720,1,800,800
+missing_red_001.jpg,1280,720,1,800,800
+missing_red_014.jpg,1280,720,1,800,800
+missing_red_020.jpg,1280,720,1,800,800

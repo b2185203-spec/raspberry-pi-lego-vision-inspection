@@ -1,0 +1,19 @@
+[
+  {
+    "case": "D0_SPIN1",
+    "series": "confirmation",
+    "ort_mean_ms": 443.39698410999995,
+    "ort_p95_ms": 445.54930005,
+    "total_mean_ms": 915.95917824,
+    "consistency": {
+      "count_mismatch_runs": 0,
+      "class_mismatches": 0,
+      "box_mismatches": 0,
+      "max_box_difference_px": 0,
+      "max_score_abs_difference": 0.0,
+      "score_atol": 1e-05,
+      "matched_detections": 504,
+      "pass_check": true
+    }
+  }
+]

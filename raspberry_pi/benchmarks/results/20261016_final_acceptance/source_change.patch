@@ -1,0 +1,11 @@
+--- before/yolo_detector.hpp
++++ after/yolo_detector.hpp
+@@ -28,7 +28,7 @@
+             GraphOptimizationLevel::ORT_ENABLE_EXTENDED
+         );
+ 
+-        session_options_.SetIntraOpNumThreads(2);
++        // Use ORT's default automatic intra-op thread count.
+ 
+         session_ = std::make_unique<Ort::Session>(
+             environment_,
